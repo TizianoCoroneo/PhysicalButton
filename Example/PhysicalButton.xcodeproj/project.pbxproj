@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A1F64E91267CE56ED941666 /* Pods_PhysicalButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE5B9BC8E370D9157E96EC3 /* Pods_PhysicalButton_Tests.framework */; };
 		3516E5A7217F84AF007A1A47 /* PhysicalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3516E5A6217F84AF007A1A47 /* PhysicalButton.swift */; };
+		3595BF062180D54B00F27B8D /* ButtonDoneRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595BF052180D54B00F27B8D /* ButtonDoneRight.swift */; };
 		49D023FC3DD706A6FE430307 /* Pods_PhysicalButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1297FE9F563BB0D4C587E63 /* Pods_PhysicalButton_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		0D8F3DB5A5B5C55CBE969AAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3516E5A6217F84AF007A1A47 /* PhysicalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalButton.swift; sourceTree = "<group>"; };
+		3595BF052180D54B00F27B8D /* ButtonDoneRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDoneRight.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PhysicalButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicalButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				3595BF052180D54B00F27B8D /* ButtonDoneRight.swift */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				3516E5A6217F84AF007A1A47 /* PhysicalButton.swift */,
@@ -362,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3595BF062180D54B00F27B8D /* ButtonDoneRight.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				3516E5A7217F84AF007A1A47 /* PhysicalButton.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
